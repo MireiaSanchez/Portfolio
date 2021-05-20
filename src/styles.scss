@@ -1,0 +1,16 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body{
+
+  margin: 0px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+}
+
+
+.btn:focus {
+  outline: none !important;
+}

@@ -1,0 +1,33 @@
+<div class="mt-5 flex flex-row justify-center items-center">
+    <div class="w-full ml-16 h-2/5 m-7 transform rotate-6 rounded-3xl bg-blue">
+      <div class=" bg-white transform -rotate-6 bourder-black border-2 rounded-xl flex flex-row flex-wrap justify-center items-center">
+      <div class="flex flex-row flex-wrap justify-center items-center" *ngIf="pageOne">
+        <img class="w-1/3 mr-4 mt-3" src="../../../assets/penguinAboutMe.svg" alt="confortZoneImage">
+      <div class="w-1/2 p-3 flex flex-col">
+      <h5 class="text-xl mt-2">La magia ocurre fuera de tu zona de confort</h5>
+        <p class="mt-2 mb-2 text-justify text-base">Cuando oí esta frase por primera vez, estaba totalmente fuera de mi zona de confort. Había pasado de trabajar en
+          turismo a adentrarme en el mundo de la programación, en un curso que además, iba destinado a gente que ya tenía algunos conocimientos previos.
+          Y la magia sucedió. Poco a poco me enamoré de la programación, y pasé de sentirme perdida a sentir que era lo mío, que disfrutaba con ello
+          y que quería dedicarme a ello.
+        </p>
+        <i (click)="onClick()" class="fas fa-chevron-circle-right fa-3x back p-1 self-end"></i>
+      </div>
+      </div>
+
+      <div *ngIf="!pageOne" class="w-1/2 p-3 flex flex-row flex-wrap justify-center items-center">
+          <p class="mt-2 mb-2 text-justify text-base">Soy la clase de persona que se arriesga a cruzar esa zona de confort, que intenta pensar fuera de la caja, que adora conocer gente nueva y diferentes maneras de hacer las cosas,
+            y que intenta aprender algo cada día.
+          Y he decidido reencaminar mi carrera hacia el desarrollo web porque me permite ser esa clase de persona en el mundo laboral.</p>
+          <ul class="photos h-1/2 rounded-xl">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <i (click)="onClick()" class="fas fa-chevron-circle-left fa-3x back p-1 self-start"></i>
+        </div>
+
+
+    </div>
+
+    </div>
+</div>

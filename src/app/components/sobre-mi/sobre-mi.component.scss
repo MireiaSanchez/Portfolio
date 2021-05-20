@@ -1,0 +1,55 @@
+.back{
+    color: #F9B233;
+}
+
+.photos{
+  box-sizing: border-box;
+  list-style: none;
+
+}
+
+.photos> li {
+  background-size:cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 0;
+  top: 10%;
+  left: 5%;
+  height: 10em;
+  width: 10em;
+  position: absolute;
+  animation: imageAnimation 30s linear infinite;
+  border-radius: 25em;
+}
+
+.photos li:nth-child(1) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../../../assets/foto1.jpg');
+}
+.photos li:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../../../assets/foto2.jpg');
+  animation-delay: 10s;
+}
+
+.photos li:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../../../assets/foto3.jpg');
+  animation-delay: 20s;
+}
+
+  @keyframes imageAnimation {
+    0% {
+      opacity: 0;
+      animation-timing-function: ease-in;
+    }
+    2% {
+      opacity: 1;
+
+    }
+    28% {
+
+      opacity: 1;
+      animation-timing-function: ease-in;
+    }
+    33% {
+      opacity: 0;
+    }
+  }

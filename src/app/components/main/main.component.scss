@@ -1,0 +1,34 @@
+
+
+.active{
+  border-bottom: white 2px solid;
+}
+
+svg{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.navbar-nav{
+  a{
+    padding: 1% 2%;
+
+  }
+}
+
+.hide{
+  opacity: 0;
+}
+
+.hide{
+  transition: all 0.5s ease-in;
+}
+
+
+// COLORS
+//2E282A raisin black
+// 95C11F green
+// 4B3B40 old burgundy
+// 032B43 prussian blue
+// 002A32 gun metal

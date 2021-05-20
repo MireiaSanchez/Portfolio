@@ -1,0 +1,38 @@
+<div class="h-5/6 flex">
+  <div class=" w-1/4 m-12">
+  <div *ngFor="let section of sections">
+      <button [ngClass]="{ activeButton: section== selectedSection}" (click)="setSection(section)" class="btn m-4 w-28 inset-0 z-0 text-black bg-accent">{{section}}</button>
+  </div>
+</div>
+<div class="card m-32 md:m-24 h-full w-3/4 text-center bg-blue rounded-3xl transform rotate-12">
+  <div class="containerSkills h-5/6 w-full bg-white border-black border-3 transform -rotate-12 rounded">
+    <div *ngIf="selectedSection == 'Front-end'" class="front w-full h-5/6 flex flex-wrap justify-center items-center">
+      <img class="h-20 m-3" src="../../../assets/angular.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/vue.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/react.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/css.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/html.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/javascript.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/bootstrap.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/ionic.svg" alt="">
+    </div>
+    <div *ngIf="selectedSection == 'Back-end'" class="back w-full h-5/6 flex flex-wrap justify-center items-center">
+      <img class="h-20 m-3" src="../../../assets/c++.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/java.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/php.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/laravel.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/mysql.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/mongodb.svg" alt="">
+    </div>
+    <div *ngIf="selectedSection == 'Otros'" class="back w-full h-5/6 flex flex-wrap justify-center items-center">
+      <img class="h-20 m-3" src="../../../assets/git.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/github.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/bitbucket.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/illustrator.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/photoshop.svg" alt="">
+      <img class="h-20 m-3" src="../../../assets/trello.svg" alt="">
+    </div>
+  </div>
+  </div>
+
+</div>

@@ -1,0 +1,108 @@
+.card{
+    width:35%;
+    height: 40%;
+    transition: all 1s;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+}
+
+p{
+    display: none;
+    font-size: 32px;
+    top: 40%;
+}
+
+.card:hover{
+    // background-color: #565656;
+
+    img{
+        opacity: 15%;
+        transition: all 300ms;
+    }
+
+    p{
+        display: inline;
+    }
+
+}
+
+.containerProjects{
+  grid-template-columns: 60% 40%;
+
+  h3{
+    font-size: 22px;
+  }
+
+  .descripcion{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+}
+
+.videoCard{
+  width: 100%;
+}
+
+
+button {
+  margin-bottom: 5px;
+}
+
+.progress-range{
+  margin: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 8px;
+  width: 60%;
+  background-color: white;
+}
+
+.buttonPlay:hover{
+  background-color: white;
+  border: 1px #F9B233 solid;
+}
+
+.progress-bar{
+  background: #F9B233;
+  // width: 20%;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.fa-volume-mute{
+  color: #F9B233;
+}
+
+.fa-volume-up{
+  color: #F9B233;
+}
+
+.fa-expand{
+  color: #F9B233;
+}
+
+.show-controls{
+  opacity: 0;
+  transition: all 0.5s ease-out 1s;
+}
+
+.show-controls:hover{
+  opacity: 1;
+  transition: all 0.2s ease-out;
+}
+
+.video-fullscreen{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.back{
+  color: #F9B233;
+}
+
+.title{
+  margin: 0.5em;
+  margin-left: 3em;
+}
