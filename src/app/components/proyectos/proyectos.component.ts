@@ -106,7 +106,6 @@ toggleFullScreen(){
   this.fullscreen= !this.fullscreen;
 }
 
-
 /* View in fullscreen */
 openFullscreen(elem) {
   if (elem.requestFullscreen) {
