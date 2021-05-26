@@ -1,14 +1,14 @@
-<div class="mt-2 md:mt-1">
-<div *ngIf="selectedProject== null" class="w-full max-h-full flex flex-wrap flex-row justify-center items-center mt-5 md:mt-2">
-  <div *ngFor="let project of projects" (click)="showDetail(project)" class="card transform w-2/5 h-1/2 rotate-12 rounded-3xl m-12 md:m-5 bg-blue">
-      <div class="relative innerDiv transform -rotate-12 border-2 border-black">
-      <p class="absolute inset-0 z-0 text-white">{{project.name}}</p>
+<div class="w-3/4 h-full flex items-center">
+<div *ngIf="selectedProject== null" class="flex flex-wrap flex-row justify-center items-center">
+  <div *ngFor="let project of projects" (click)="showDetail(project)" class="card transform rotate-6 rounded-3xl m-12 md:m-5 bg-blue">
+      <div class="relative innerDiv transform -rotate-6 border-2 border-black">
+      <p class="absolute inset-0 -mt-2 z-0 text-white">{{project.name}}</p>
       <img class="z-30" [src]="project.img"/>
       </div>
   </div>
 </div>
 
-<div class="w-full mt-3" *ngIf="selectedProject != null">
+<div class="w-full" *ngIf="selectedProject != null">
   <h3 class="text-3xl ml-0 title">{{selectedProject.name}}</h3>
 <div class="containerProjects flex">
   <div class="player relative md:w-3/4 rounded-xl ml-6 mr-6 mb-6">
@@ -49,4 +49,5 @@
 </div>
 
 
+</div>
 </div>

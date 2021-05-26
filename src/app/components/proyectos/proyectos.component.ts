@@ -15,7 +15,7 @@ export class ProyectosComponent implements OnInit {
 
   constructor() {
     this.projects= [
-      {img: '../../../assets/Recomerçem.PNG', name: 'Recomerçem', video: '../../../assets/Recomerçem.mp4',
+      {img: '../../../assets/Recomerçem.PNG', name: 'Recomerçem', video: '../../../assets/Recomercem.mp4',
       description: 'Proyecto web para reavivar el comercio de barrio, animando a la gente a jugar a cuatro minijuegos con los que ganar puntos y cambiarlos por descuentos en tiendas. Primer proyeto del ciclo de Desarrollo de aplicaciones web.',
       technologies: ['html', 'css', 'javascript', 'php', 'bootstrap', 'mysql']
     },
