@@ -19,7 +19,7 @@ export class ProyectosComponent implements OnInit {
       description: 'Proyecto web para reavivar el comercio de barrio, animando a la gente a jugar a cuatro minijuegos con los que ganar puntos y cambiarlos por descuentos en tiendas. Primer proyeto del ciclo de Desarrollo de aplicaciones web.',
       technologies: ['html', 'css', 'javascript', 'php', 'bootstrap', 'mysql']
     },
-      {img: '../../../assets/Broggi.PNG', name: 'Broggi', video: '../../../assets/Broggi.mov',
+      {img: '../../../assets/Broggi.PNG', name: 'Broggi', video: '../../../assets/Broggi.mp4',
       description: 'Proyecto web demandado por el instituto IES Moisès Broggi y segundo proyecto del cicle de Desarrollo de aplicaciones web. La aplicación está destinada a que los estudiantes practiquen la recepción de llamadas de emergencia, rellenando todos los datos proporcionados por el alertante y asignando los recursos necesarios.',
       technologies: ['html', 'css', 'javascript', 'php', 'laravel', 'bootstrap', 'mysql', 'vue']
     },

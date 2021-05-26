@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-descubreme',
@@ -7,14 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DescubremeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
-    var h1 = document.querySelector("h1");
 
-h1.addEventListener("input", function() {
-  this.setAttribute("data-heading", this.innerText);
-});
+  }
+
+  onClick(){
+    this.router.navigate(['main/about']);
   }
 
 }

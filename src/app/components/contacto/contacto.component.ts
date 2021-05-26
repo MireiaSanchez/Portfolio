@@ -10,7 +10,11 @@ export class ContactoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    
+
+  }
+
+  openMail(){
+    window.open(`mailto:misala91@gmail.com`)
   }
 
 }

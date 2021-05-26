@@ -8,7 +8,7 @@
   </button>
   <div class="collapse navbar-collapse text-white w-screen" id="navbarNavAltMarkup">
     <div class="navbar-nav flex-row text-white justify-end w-full">
-      <a  *ngFor="let item of items" [routerLink]="[item.path]" routerLinkActive="active" (click)="setPart(item)" class="nav-item nav-link flex text-white" href="#"><img class="h-7 mr-4 " [src]="item.icon"> {{item.name}}</a>
+      <a  *ngFor="let item of items" [routerLink]="[item.path]" routerLinkActive="active" (click)="setPart(item)" class="nav-item nav-link flex text-white borderFade" href="#"><img class="h-7 mr-4 " [src]="item.icon"> {{item.name}}</a>
     </div>
   </div>
 </nav>

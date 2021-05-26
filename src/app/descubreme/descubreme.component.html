@@ -2,9 +2,13 @@
   <div class="w-3/4 flex flex-col items-center">
 
 
-  <p class="pt-5">Mireia Sánchez,</p>
-  <p class="p-5 ml-16">Web Developer</p>
-  <button [routerLink]="['/main/about']" class="w-40 h-20 text-xl btn discover bg-accent">Descúbreme</button>
+  <p class="text1 pt-5">Mireia Sánchez,</p>
+
+  <p class="text2 p-9 ml-32">Web Developer</p>
+
+  <button class="w-40 h-20 text-xl mt-12 btn discover bg-accent">
+    <a (click)="onClick()">Descúbreme</a>
+  </button>
   <img class="w-1/4 pingu" src="../../assets/pinguPresent.svg" alt="pingüinoDescúbreme">
   </div>
 </div>

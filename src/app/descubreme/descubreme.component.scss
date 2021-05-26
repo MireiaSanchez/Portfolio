@@ -1,10 +1,15 @@
-p{
+.text1{
   font-size: 80px;
+}
+
+.text2{
+  font-size: 60px;
 }
 
 *{
   overflow: hidden;
 }
+
 
 
 .background{
@@ -35,3 +40,6 @@ p{
   color: white;
 }
 
+p{
+  font-family: 'Nothing You Could Do', cursive;
+}
