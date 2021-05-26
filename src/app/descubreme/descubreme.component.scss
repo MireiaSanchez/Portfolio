@@ -1,3 +1,37 @@
 p{
   font-size: 80px;
 }
+
+*{
+  overflow: hidden;
+}
+
+
+.background{
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  position: relative;
+
+
+}
+
+.pingu{
+  position: absolute;
+  bottom: -80px;
+  right: 2em;
+}
+
+.pingu{
+  transition: all 1000ms;
+}
+
+.discover:hover ~ .pingu{
+  bottom: -10px;
+}
+
+.discover:hover{
+  background-color: #565656;
+  color: white;
+}
+
